@@ -1,0 +1,204 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.9rem;
+  font-family: "Prata", serif;
+  padding-top: 2rem;
+  align-items: center;
+  @media screen and (max-width: 50em) {
+    width: 85%;
+    margin: 0 auto;
+  }
+  @media screen and (max-width: 30em) {
+    width: 95%;
+    margin: 0 auto;
+  }
+  &-text {
+    letter-spacing: -0.5px;
+  }
+  &-list {
+    font-size: 2rem;
+    display: flex;
+    list-style: none;
+    &-li {
+      margin-right: 3rem;
+    }
+
+    @media screen and (max-width: 21em) {
+      display: none;
+    }
+  }
+  &-btn {
+    padding: 2rem 4rem;
+    background-color: yellow;
+    font-size: 2rem;
+
+    border: none;
+  }
+}
+.hero {
+  padding: 8rem 1.5rem;
+
+  &-text {
+    width: 70%;
+    @media screen and (max-width: 64em) {
+      width: 100%;
+      padding-right: 10rem;
+    }
+    @media screen and (max-width: 50em) {
+      width: 85%;
+      margin: 0 auto;
+    }
+    @media screen and (max-width: 30em) {
+      width: 99%;
+      margin: 0 auto;
+    }
+    @media screen and (max-width: 21em) {
+      width: 100%;
+      padding-right: 1rem;
+    }
+    &_primary {
+      font-size: 5.5rem;
+      font-family: "Prata", serif;
+      font-weight: bold;
+      margin-bottom: 2rem;
+      @media screen and (max-width: 21em) {
+        font-size: 4.5rem;
+      }
+    }
+    &_secondary {
+      font-size: 1.8rem;
+      font-weight: normal;
+      width: 80%;
+      line-height: 1.7;
+      color: rgba(255, 255, 255, 0.556);
+      @media screen and (max-width: 21em) {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+
+.logos {
+  padding: 0 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @media screen and (max-width: 50em) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    justify-items: center;
+  }
+  @media screen and (max-width: 30em) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.aside {
+  display: flex;
+  padding: 0 1.5rem;
+  font-family: "inter", sans-serif;
+  color: grey;
+  @media screen and (max-width: 50em) {
+    display: block;
+  }
+
+  &-title {
+    font-size: 3.5rem;
+    font-family: "Prata", serif;
+    font-weight: lighter;
+    margin-bottom: 4rem;
+    color: white;
+  }
+  &-text {
+    font-size: 1.8rem;
+    margin-bottom: 4rem;
+    font-weight: lighter;
+  }
+  &-primary {
+    width: 46%;
+    margin-right: auto;
+    @media screen and (max-width: 50em) {
+      width: 80%;
+      margin: 0 auto;
+    }
+    @media screen and (max-width: 30em) {
+      width: 95%;
+      margin: 0 auto;
+    }
+  }
+  &-secondary {
+    width: 46%;
+    @media screen and (max-width: 50em) {
+      width: 80%;
+      margin: 0 auto;
+    }
+    @media screen and (max-width: 30em) {
+      width: 95%;
+      margin: 0 auto;
+    }
+  }
+}
+main {
+  background-color: #1c1c2a9e;
+  padding: 8rem 0;
+}
+.last {
+  width: 52%;
+  @media screen and (max-width: 50em) {
+    width: 80%;
+  }
+}
+
+.last-part {
+  padding: 8rem 2rem;
+  @media screen and (max-width: 50em) {
+    width: 80%;
+  }
+  @media screen and (max-width: 30em) {
+    width: 96%;
+  }
+}
+.last-title {
+  font-size: 4rem;
+  font-family: "Prata", serif;
+  margin-bottom: 2rem;
+}
+.last-text {
+  font-size: 2rem;
+  font-family: "inter", sans-serif;
+  margin-bottom: 2rem;
+  font-weight: lighter;
+  padding-right: 3rem;
+  @media screen and (max-width: 50em) {
+    padding-right: 4rem;
+  }
+}
+
+footer {
+  background-color: #1c1c2a9e;
+  padding: 3rem 0;
+}
+.footer-nav {
+  display: flex;
+  font-size: 1.9rem;
+  font-family: "Prata", serif;
+  @media screen and (max-width: 50em) {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  @media screen and (max-width: 30em) {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+.nav-last-text {
+  margin-right: auto;
+  letter-spacing: -0.5px;
+}
+
+.footer-icon + .footer-icon {
+  margin-left: 2rem;
+}

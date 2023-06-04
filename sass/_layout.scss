@@ -1,0 +1,88 @@
+.features {
+  gap: 8rem;
+  padding: 8rem 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  @media screen and (max-width: 50em) {
+    display: block;
+  }
+  &-image {
+    margin-bottom: 2rem;
+    @media screen and (max-width: 50em) {
+      width: 100%;
+    }
+  }
+  &-link {
+    margin-bottom: 2rem;
+    display: inline-block;
+  }
+}
+.features-box {
+  @media screen and (max-width: 50em) {
+    width: 85%;
+    margin: 0 auto;
+  }
+  @media screen and (max-width: 30em) {
+    width: 99%;
+    margin: 0 auto;
+  }
+  @media screen and (max-width: 21em) {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+.features {
+  &-link:link,
+  &-link:visited {
+    font-size: 2.5rem;
+    text-decoration: none;
+    font-family: "Prata", serif;
+    color: white;
+    cursor: pointer;
+  }
+  &-text {
+    font-size: 2rem;
+    font-family: "inter", serif;
+    line-height: 3rem;
+    font-weight: 200;
+    @media screen and (max-width: 50em) {
+      margin-bottom: 4rem;
+    }
+  }
+}
+
+.link-border {
+  position: relative;
+}
+
+.features-icon,
+.features-icon-2 {
+  left: 23rem;
+  top: 2.2rem;
+  font-size: 2.2rem;
+  position: absolute;
+  background-color: rgb(176, 176, 176);
+  color: black;
+}
+
+.border,
+.border-2 {
+  height: 5rem;
+  width: 28rem;
+  position: absolute;
+  top: 0;
+  left: -1rem;
+
+  &:hover {
+    border: 1px dashed white;
+    transform: rotate(4deg);
+  }
+}
+.features-icon-2 {
+  left: 28rem;
+  top: 2.2rem;
+}
+.border-2 {
+  height: 5rem;
+  width: 33rem;
+}
